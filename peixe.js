@@ -16,7 +16,7 @@ var peixinho; // cria a variável peixinho e guarda o peixe
 
 function preload() { //carregar os recursos do jogo
     this.load.image('mar', 'assets/bg_azul-claro.png'); // define 'mar' como apelido para a imagem
-    this.load.image('logo', 'assets/logo-inteli_branco.png'); // carregar o logo
+    this.load.image('logo', 'assets/logo-inteli_azul.png'); // carregar o logo
     this.load.image('peixe', 'assets/peixes/peixinho_laranja.png'); // carregar o peixe
 }
 
