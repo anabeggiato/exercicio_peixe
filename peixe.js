@@ -18,12 +18,14 @@ function preload() { //carregar os recursos do jogo
     this.load.image('mar', 'assets/bg_azul-claro.png'); // define 'mar' como apelido para a imagem
     this.load.image('logo', 'assets/logo-inteli_azul.png'); // carregar o logo
     this.load.image('peixe', 'assets/peixes/peixinho_laranja.png'); // carregar o peixe
+    this.load.image('concha', 'assets/peixes/concha.png') // carregar a concha
 }
 
 
 function create() { //criar e configurar elementos do jogo
     this.add.image(400, 300, 'mar'); // adiciona a imagem 'mar' na tela do jogo; 400, 300 são as coordenadas da imagem na tela do jogo
     this.add.image(400,525, 'logo').setScale(0.5); // adicionar o logo na tela
+    this.add.image(500, 700, 'concha').setScale(0.5); //adicionar a cocha na tela
 
     peixinho = this.add.image(400, 300, 'peixe'); //adicionar o peixe na tela
 
