@@ -25,7 +25,7 @@ function preload() { //carregar os recursos do jogo
 function create() { //criar e configurar elementos do jogo
     this.add.image(400, 300, 'mar'); // adiciona a imagem 'mar' na tela do jogo; 400, 300 são as coordenadas da imagem na tela do jogo
     this.add.image(400,525, 'logo').setScale(0.5); // adicionar o logo na tela
-    this.add.image(500, 700, 'concha').setScale(0.5); //adicionar a cocha na tela
+    this.add.image(625, 500, 'concha'); //adicionar a cocha na tela
 
     peixinho = this.add.image(400, 300, 'peixe'); //adicionar o peixe na tela
 
